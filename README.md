@@ -2,6 +2,8 @@
 
 A case, deadline, hearing and fee manager for a Nigerian law practice. It runs in the browser and works on a phone in court as well as on a desk.
 
+**Open it:** https://jedee.github.io/new/
+
 ## What it does
 
 - **Today:** what is overdue, what falls due this week, where you are in court, and how much in fees is still owed.
@@ -44,6 +46,8 @@ npm run preview    # serve the built app
 ```
 
 The build uses relative paths and hash routing, so `dist/` can be hosted anywhere static: GitHub Pages, Netlify, or a folder on a shared drive.
+
+Every push to `main` runs the tests and publishes the app to GitHub Pages (`.github/workflows/deploy.yml`). A push with failing tests is not published.
 
 ## Writing templates
 
